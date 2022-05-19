@@ -1,0 +1,147 @@
+body {
+	font-size: 1em;
+	font-weight: bolder;
+	font-family: Courier New;
+	text-align: left;
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	width: 70%;
+	min-width: 800px;	
+	margin: 0 auto;
+}
+h1, h2 { 
+	font-family: Garamond;
+	font-weight: bold;
+	text-align: center;
+}
+h1 {
+	font-size: 2.8em;
+	text-align: center;
+	text-shadow: 4px 4px 4px black;
+	margin-bottom: 0.5em;
+}
+h2 { 
+	font-size: 1.4em;
+	margin-left: 1em;
+	
+}
+h2 { 
+	font-size: 1.8em;
+}
+h3 { 
+	font-family: Garamond;
+	font-size: 1.3em;
+	margin-left: 1em;
+	text-align: center;
+	font-weight: bold;
+}
+div { 
+	border: 1px solid black;
+	padding: 1em;
+	margin: 1em;
+	background-color: #c886d4;
+	box-shadow: 4px 4px 4px black;	
+}
+p { 
+	margin: 1em;
+}
+a { 
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover, a:focus { 
+	color: black;
+	background-color: #FFFFCC; /* yellow */
+}
+
+/* table styles */
+/* for accessibility.html */
+
+table { 
+	margin: 0 auto; /* this is a trick for centering certain elements */
+	background-color: black;
+	border-color: #08BAB3;
+}
+th, td { 
+	background-color: white;
+	color: black;
+	padding: 0.75em;
+	margin: 1px;
+}
+caption { 
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0.75em;
+}
+
+/* elements with ids and classes */
+
+div#skipnav { 
+  position: relative;
+	right: 12.5%;
+	width: 10em;
+	text-align: center; 
+	overflow: hidden;
+}
+div.info { 
+    float: left;
+	width: 40%;
+	font-size: 1.2em;
+}
+nav { 
+	clear: left;
+}
+main, main p { 
+	color: black;
+	background-color: #FF9AE6;
+	font-style: normal;
+}
+main p { 
+	margin-left: 2em;
+}
+main p#overview { 
+	/* cancel out the above style for the #overview */
+	margin-left: 1em;
+	font-size: 1.1em;
+}
+main p.temp { 
+	font-style: italic;
+}
+p#overview:first-letter { 
+	font-family: Lollipop;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/* Navigation menu styles */
+
+nav { 
+	padding-bottom: 0.25em;
+}
+nav ul { 
+	list-style-type: none;
+	padding-bottom: inherit;
+}
+nav ul li { 
+	float: left;
+	margin-left: 0.5em;
+}
+nav ul li a { 
+	padding: 0.26em 1em;
+	text-decoration: none; /* no underline */
+	background-color: #4dff4d; /* pale pinkish white */
+	color: white; /* dark gray */
+	border: 1px solid black;
+	border-top-left-radius: 1.25em 1.25em; /* rounded corner! */
+	border-top-right-radius: 1.25em 1.25em; /* rounded corner! */	 
+}
+nav ul li a:hover, nav ul li a:focus { 
+	color: black; 
+	background-color: white; 
+	font-weight: bold;
+}
+main { 
+	clear: left;
+	padding: 1em;
+}
