@@ -11,7 +11,7 @@ Simple website showing my favorite K-Pop groups and their music.
 
 ## Getting Started
 
-* Deployment: [GitHub Pages](https://a-bikombe.github.io/kpop-groups/)
+Deployment: [GitHub Pages](https://a-bikombe.github.io/kpop-groups/)
 
 ## Version History
 
